@@ -17,11 +17,11 @@ body {
     max-width: 900px;
     margin: 0 auto;
     background-color: white;
-    padding: 1em
+    padding: 1em;
 }
 
 img {
-    max-width: 100%
+    max-width: 100%;;
 }
 
 h1,
@@ -47,14 +47,14 @@ header>h1 {
 
 p {
     font-family: var(--paragraph-font);
-    padding: 1em
+    padding: 1em;
 }
 
 .colors {
     width: 100%;
     min-width: 350px;
     margin: auto;
-    text-align: center
+    text-align: center;
 }
 
 .colors th {
@@ -63,23 +63,23 @@ p {
 
 .colors td {
     width: 25%;
-    height: 3em
+    height: 3em;
 }
 
 .primary {
-    background-color: var(--primary-color)
+    background-color: var(--primary-color);
 }
 
 .secondary {
-    background-color: var(--secondary-color)
+    background-color: var(--secondary-color);
 }
 
 .accent1 {
-    background-color: var(--accent1-color)
+    background-color: var(--accent1-color);
 }
 
 .accent2 {
-    background-color: var(--accent2-color)
+    background-color: var(--accent2-color);
 }
 
 nav {
