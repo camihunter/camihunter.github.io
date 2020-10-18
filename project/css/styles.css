@@ -5,13 +5,14 @@
     --secondary-color: #857e61;
     --accent1-color: #4C5760;
     --accent2-color: #481620;
-    --heading-font: "Raleway", sans-serf;
-    --paragraph-font: 'Crimson Text', serif;
+    --heading-font: "Raleway", Helvetica, sans-serf;
+    --paragraph-font: 'Crimson Text', Times, serif;
 }
 
 body {
     background-color: var(--primary-color);
     font-family: var(--paragraph-font);
+    font-size: 16px;
 }
 
 header,
@@ -19,19 +20,7 @@ main,
 footer {
     max-width: 960px;
     margin: 0 auto;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: var(--accent2-color);
-}
-
-section {
-    background-color: white;
+    padding: 10px;
 }
 
 h1,
@@ -45,27 +34,70 @@ h6 {
 }
 
 header,
-footer {
+footer, header section, header h1 {
     background-color: var(--secondary-color);
     color: white;
 }
 
+header {
+	padding: 5px 0;
+	display: flex;
+    align-items:center;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+header img {
+	width: 120px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+nav {
+    display: flex;
+    padding: 7px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header li {
+    padding: 0 5px;
+}
+
 a {
     color: var(--accent2-color);
-}
-
-header h1 {
-    color: white;
-}
-
-ul {
-    list-style-type: none;
-}
-
-a {
     text-decoration: none;
 }
 
 nav a:hover {
     background-color: var(--accent1-color);
+    color: white;
+    padding: 4px;
+}
+
+.hero img{
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer {
+    padding: 5px 0;
+	display: grid;
+    align-items:center;
 }
