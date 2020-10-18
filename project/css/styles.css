@@ -101,3 +101,11 @@ footer {
 	display: grid;
     align-items:center;
 }
+
+div.contactinfo {
+    padding-left: 10%;
+}
+
+footer {
+    
+}
