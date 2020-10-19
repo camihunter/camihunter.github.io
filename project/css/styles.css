@@ -20,7 +20,6 @@ main,
 footer {
     max-width: 960px;
     margin: 0 auto;
-    padding: 10px;
 }
 
 h1,
@@ -34,44 +33,48 @@ h6 {
 }
 
 header,
-footer, header section, header h1 {
+footer,
+header section,
+header h1 {
     background-color: var(--secondary-color);
     color: white;
 }
 
-header {
-	padding: 5px 0;
-	display: flex;
-    align-items:center;
+/*----------Header-----------*/
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
 }
 
 .headings h1 {
-	font-size: 1.6rem;
-	margin: 0 0 0 17px;
+    font-size: 1.6rem;
 }
 
-header img {
-	width: 120px;
-	height: auto;
+header img.logo {
+    width: 80px;
+    height: auto;
 }
 
 .headings {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
     display: flex;
-    padding: 7px;
+    margin-left: auto;
+    font-family: var(--heading-font);
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
+    margin-left: auto;
 }
 
 header li {
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 a {
@@ -80,32 +83,74 @@ a {
 }
 
 nav a:hover {
-    background-color: var(--accent1-color);
     color: white;
-    padding: 4px;
 }
 
-.hero img{
+.hero img {
     max-width: 100%;
     height: auto;
 }
 
-.main {
+
+/*----------Main-----------*/
+main {
     background-color: white;
-    padding: 15px;
-    margin-top: 20px;
 }
 
+main section {
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.imagea,
+.imageb {
+    max-width: 400px;
+}
+
+.maina,
+.mainb {
+    margin-bottom: 10px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main h2 {
+    text-align: center;
+}
+
+main p {
+    text-align: justify;
+}
+
+/*----------Footer-----------*/
 footer {
-    padding: 5px 0;
-	display: grid;
-    align-items:center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 1fr;
+    grid-template-areas:
+        "a b"
+        "c c";
 }
 
 div.contactinfo {
-    padding-left: 10%;
+    grid-area: a;
+    padding-left: 7rem;
 }
 
-footer {
-    
+div.social {
+    grid-area: b;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+}
+
+.social img {
+    max-width: 45px;
+}
+
+div.copyright {
+    grid-area: c;
+    justify-self: center;
+    font-size: .9rem;
 }
