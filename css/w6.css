@@ -83,6 +83,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 2fr 2fr 1fr;
+    column-gap: 30px;
 }
 
 .red3 {
@@ -93,16 +94,15 @@ body {
 }
 
 .green3 {
-    width: 275px;
     height: 200px;
     background-color: green;
+    grid-column: 1/2;
 }
 
 .gold3 {
-    width: 275px;
     height: 200px;
     background-color: gold;
-    justify-self: end;
+    grid-column: 2/3;
 }
 
 .blue3 {
