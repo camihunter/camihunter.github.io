@@ -114,7 +114,6 @@ body {
 
 /* ----------Activity 4 styles---------- */
 .content4 {
-    width: 600px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1r 1fr;
@@ -125,28 +124,25 @@ body {
 }
 
 .red4 {
-    width: 300px;
     height: 300px;
     background-color: red;
     grid-area: a;
 }
 
 .green4 {
-    width: 300px;
+
     height: 100px;
     background-color: green;
     grid-area: b;
 }
 
 .gold4 {
-    width: 300px;
     height: 100px;
     background-color: gold;
     grid-area: c;
 }
 
 .blue4 {
-    width: 300px;
     height: 100px;
     background-color: blue;
     grid-area: d;
