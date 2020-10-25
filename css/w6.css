@@ -1,0 +1,227 @@
+body {
+    font-size: 16px;
+    background-color: #fff;
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ----------Activity 1 style----------s */
+.content1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    gap: 20px;
+}
+
+.red1 {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    grid-column: 1/3;
+}
+
+.green1 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    justify-self: center;
+}
+
+.gold1 {
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    justify-self: center;
+}
+
+.blue1 {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    grid-column: 1/3;
+}
+
+/* ----------Activity 2 styles---------- */
+.content2 {}
+
+.red2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+}
+
+.green2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+
+.gold2 {
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+}
+
+.blue2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    bottom: 300px;
+    left: 300px;
+}
+
+/* ----------Activity 3 style----------s */
+.content3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+}
+
+.red3 {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    grid-column: 1/3;
+}
+
+.green3 {
+    width: 275px;
+    height: 200px;
+    background-color: green;
+}
+
+.gold3 {
+    width: 275px;
+    height: 200px;
+    background-color: gold;
+    justify-self: end;
+}
+
+.blue3 {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    grid-column: 1/3;
+}
+
+/* ----------Activity 4 styles---------- */
+.content4 {
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1r 1fr;
+    grid-template-areas: 
+    "a b"
+    "a c"
+    "a d";
+}
+
+.red4 {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    grid-area: a;
+}
+
+.green4 {
+    width: 300px;
+    height: 100px;
+    background-color: green;
+    grid-area: b;
+}
+
+.gold4 {
+    width: 300px;
+    height: 100px;
+    background-color: gold;
+    grid-area: c;
+}
+
+.blue4 {
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    grid-area: d;
+}
+
+/* ----------Activity 5 style----------s */
+.content5 {
+
+}
+
+.p5 {
+    margin: 15px;
+}
+
+.red5 {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+.green5 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+.gold5 {
+    width: 100%;
+    background-color: gold;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.blue5 {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    grid-column: 1/3;
+}
+
+/* ----------Activity 6 styles---------- */
+.content6 {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(6, 100px);
+    gap: 20px;
+}
+
+.red6 {
+    background-color: red;
+    grid-column: 1/5;
+    grid-row: 1/3;
+    z-index: 1;
+}
+
+.green6 {
+    background-color: green;
+    grid-column: 1/3;
+    grid-row: 5/7;
+    z-index: 4;
+}
+
+.gold6 {
+    background-color: gold;
+    grid-column: 5/7;
+    grid-row: 3/7;
+    z-index: 3;
+}
+
+.blue6 {
+    background-color: blue;
+    grid-column: 2/6;
+    grid-row: 2/6;
+    z-index: 2;
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Raleway:wght@300;400&display=swap');
+
+:root {
+    --primary-color: #F8F3E5;
+    --secondary-color: #857e61;
+    --accent1-color: #4C5760;
+    --accent2-color: #481620;
+    --heading-font: "Raleway", Helvetica, sans-serf;
+    --paragraph-font: 'Crimson Text', Times, serif;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: var(--paragraph-font);
+    font-size: 16px;
+}
+
+header,
+main,
+footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--accent1-color);
+    font-family: var(--heading-font);
+}
+
+header,
+footer,
+header section,
+header h1 {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/*----------Header-----------*/
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.headings h1 {
+    font-size: 1.6rem;
+}
+
+header img.logo {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    margin-left: auto;
+    font-family: var(--heading-font);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+}
+
+header li {
+    padding: 0 10px;
+}
+
+a {
+    color: var(--accent2-color);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.active {
+    color: white:
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*----------Main-----------*/
+main {
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(3. 1fr)
+}
+
+main section {
+    padding: 15px 25px;
+    margin: 10px 0;
+}
+
+.imagea,
+.imageb {
+    max-width: 400px;
+}
+
+.maina,
+.mainb {
+    margin-bottom: 10px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main h2 {
+    text-align: center;
+}
+
+main p {
+    text-align: justify;
+}
+
+/*----------Footer-----------*/
+footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 1fr;
+    grid-template-areas:
+        "a b"
+        "c c";
+}
+
+div.contactinfo {
+    grid-area: a;
+    padding-left: 7rem;
+}
+
+div.social {
+    grid-area: b;
+    justify-self: center;
+    align-self: center;
+    padding: 10px;
+}
+
+.social img {
+    max-width: 45px;
+    padding: 0 5px;
+}
+
+div.copyright {
+    grid-area: c;
+    justify-self: center;
+    font-size: .9rem;
+}
