@@ -153,3 +153,8 @@ body {
 nav a {
     color: white;
 }
+
+.wireframe img{
+    max-width: 70%;
+    margin-bottom: 20px;
+}
