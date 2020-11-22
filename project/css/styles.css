@@ -46,27 +46,24 @@ header section {
     padding-left: 20px;
 }
 
-.headings {
-    font-size: 1.9rem;
-}
 
 header img.logo {
     width: 80px;
     height: auto;
 }
 
-.headings {
-    display: flex;
-    flex-direction: column;
-}
-
 nav {
-    margin-left: auto;
+    margin: 0 50px;
+}
+nav ul {
+    display: flex;
+    margin-right: auto;
+    padding: 0;
     font-family: var(--heading-font);
 }
 
-nav ul header li {
-    padding: 0 10px;
+nav ul li {
+    padding: 0 0 0 20px;
 }
 
 a {
