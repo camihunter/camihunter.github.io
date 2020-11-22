@@ -312,6 +312,7 @@ button:hover {
     background-color: var(--accent2-color);
     border-radius: 5px;
     padding: 15px;
+    margin-top: 10px;
 }
 
 
