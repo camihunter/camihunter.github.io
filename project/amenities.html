@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Temple Inn & Suites | Your Home Away From Home | 215-529-9999 | Amenities</title>
-    <link rel="stylesheet" href="css/stylestest.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -19,8 +19,8 @@
             </section>
             <nav>
                 <ul>
-                    <li><a href="index.html"></a>Home</a></li>
-                    <li><a href="#" class="active">Amenities</a></li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#" class="activepage">Amenities</a></li>
                     <li><a href="spotlight.html">Temple Spotlight</a></li>
                     <li><a href="reservations.html">Reservations</a></li>
                 </ul>
@@ -31,53 +31,59 @@
     <main>
         <section>
             <form action="reservations.html" method="GET">
-                <ul>
+                <ul class="amenities_form">
                     <li>
-                        <label for="checkin">Check In</label>
+                        <label for="checkin" class="top">Check In</label>
                         <input type="date" id="checkin" name="check_in_date">
                     </li>
                     <li>
-                            <label for="checkout">Check Out</label>
-                            <input type="date" id="checkout" name="check_out_date">
+                        <label for="checkout" class="top">Check Out</label>
+                        <input type="date" id="checkout" name="check_out_date">
                     </li>
                     <li>
-                            <label for="guests">Number of Guests</label>
-                            <select id="guests" name="guest_count">
-                                <option selected disabled>1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                            </select>
-                        </li>
+                        <label for="guests" class="top">Number of Guests</label>
+                        <select id="guests" name="guest_count">
+                            <option selected disabled>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </li>
                     <li class="button">
                         <button type="submit">Check Availability</button>
                     </li>
                 </ul>
             </form>
         </section>
-        <section>
-            <h2>Hotel Amenities</h2>
-            <ul>
-                <li>Continental breakfast</li>
-                <li>Exercise/workout room</li>
-                <li>Indoor pool</li>
-                <li>WiFi high-speed internet access</li>
-                <li>Smart TVs</li>
-                <li>On-site Parking</li>
-                <li>Temple Shuttle</li>
-                <li>Family history consultation</li>
-                <li>Family ordinance card service</li>
-            </ul>
-        </section>
-        <section>
-            <img src="images/fruit.jpg" alt="Two white bowls filled with oatmeal, cream, and peaches, and walnuts sprinkled on the side." class="">
-            <img src="images/exercise.jpg" alt="bottom half of woman putting on exercise shoes with yoga mat and small weight next to her." class="">
+        <section class="amenities_grid">
+            <div class="amenities_a">
+                <h2>Hotel Amenities</h2>
+                <ul>
+                    <li>Continental breakfast</li>
+                    <li>Exercise/workout room</li>
+                    <li>Indoor pool</li>
+                    <li>WiFi high-speed internet access</li>
+                    <li>Smart TVs</li>
+                    <li>On-site Parking</li>
+                    <li>Temple Shuttle</li>
+                    <li>Family history consultation</li>
+                    <li>Family ordinance card service</li>
+                </ul>
+            </div>
+            <img src="images/fruit.jpg"
+                alt="Two white bowls filled with oatmeal, cream, and peaches, and walnuts sprinkled on the side."
+                class="amenities_b">
+            <img src="images/exercise.jpg"
+                alt="bottom half of woman putting on exercise shoes with yoga mat and small weight next to her."
+                class="amenities_c">
         </section>
         <section>
             <h2>Long Term Stays</h2>
-            <p>We offer long term stay for temple workers........</p>
+            <p>We also have suites available for temple workers or missionaries who may be staying in the area longer.
+                Our suites are quite spacious with kitchenettes to help you feel like you are home. Contact us for more
+                infomation.</p>
         </section>
     </main>
 

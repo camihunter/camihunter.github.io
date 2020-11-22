@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Temple Inn & Suites | Your Home Away From Home | 215-529-9999 | Reservations</title>
-    <link rel="stylesheet" href="css/stylestest.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -15,14 +15,14 @@
                 <img src="images/logo.svg" alt="antique oil lamp with small flame" class="logo">
             </picture>
             <section>
-                <h1 class="headings"><a href="home.html"> Temple Inn & Suites</a></h1>
+                <h1 class="headings"><a href="home.html">Temple Inn & Suites</a></h1>
             </section>
             <nav>
                 <ul>
                     <li><a href="home.html">Home</a></li>
                     <li><a href="amenities.html">Amenities</a></li>
                     <li><a href="spotlight.html">Temple Spotlight</a></li>
-                    <li><a href="#" class="active"> Reservations</a></li>
+                    <li><a href="#" class="activepage">Reservations</a></li>
                 </ul>
             </nav>
         </div>
@@ -32,18 +32,19 @@
         <section>
             <h2>Reservations</h2>
             <form action="reservations.html" method="GET">
-                <ul>
+               
+                <ul class="reservations">
                     <li>
-                        <label for="name"> Name </label>
+                        <label for="name" class="top"> Name </label>
                         <input type="text" id="name" name="full_name">
                     </li>
 
                     <li>
-                        <label for="address">Address</label>
+                        <label for="address" class="top">Address</label>
                         <input type="street-address" id="address" name="street_address">
                     </li>
                     <li>
-                        <label for="state">State</label>
+                        <label for="state" class="top">State</label>
                         <select id="state" name="state">
                             <option selected disabled>Select State</option>
                             <option value="AL">Alabama</option>
@@ -100,25 +101,25 @@
                         </select>
                     </li>
                     <li>
-                        <label class="top">Zip Code
+                        <label for="zip" class="top">Zip Code</label>
                             <input id="zip" name="zip" type="postal-code" pattern="[0-9]*" required>
-                        </label>
+                        
                     </li>
                     <li>
-                        <label>Email Address
-                            <input type="email" name="email">
-                        </label>
+                        <label for="email" class="top">Email Address</label>
+                            <input id="email" type="email" name="email">
+                        
                     </li>
                     <li>
-                        <label for="checkin">Check In</label>
+                        <label for="checkin" class="top">Check In</label>
                         <input type="date" id="checkin" name="check_in_date">
                     </li>
                     <li>
-                        <label for="checkout">Check Out</label>
+                        <label for="checkout" class="top">Check Out</label>
                         <input type="date" id="checkout" name="check_out_date">
                     </li>
                     <li>
-                        <label for="guests">Number of Guests</label>
+                        <label for="guests" class="top">Number of Guests</label>
                         <select id="guests" name="guest_count">
                             <option selected disabled>1</option>
                             <option value="2">2</option>
