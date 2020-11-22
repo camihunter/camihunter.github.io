@@ -127,6 +127,21 @@ main p {
     text-align: justify;
 }
 
+.reservelink {
+    background-color: var(--accent2-color);
+    color: white;
+    padding: 7px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.reservelink:hover {
+    padding: 8px;
+    font-size: 1.1em;
+}
+
 /*-----Amenities Main-----*/
 form {
     margin: 0;
