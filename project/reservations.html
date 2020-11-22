@@ -31,8 +31,9 @@
     <main>
         <section>
             <h2>Reservations</h2>
-            <form action="reservations.html" method="GET">
-               
+
+            <form action="/reservations" method="POST">
+
                 <ul class="reservations">
                     <li>
                         <label for="name" class="top"> Name </label>
@@ -102,13 +103,13 @@
                     </li>
                     <li>
                         <label for="zip" class="top">Zip Code</label>
-                            <input id="zip" name="zip" type="number">
-                        
+                        <input id="zip" name="zip" type="number">
+
                     </li>
                     <li>
                         <label for="email" class="top">Email Address</label>
-                            <input id="email" type="email" name="email">
-                        
+                        <input id="email" type="email" name="email">
+
                     </li>
                     <li>
                         <label for="checkin" class="top">Check In</label>
@@ -133,8 +134,9 @@
                         <button type="submit">Book Now</button>
                     </li>
                 </ul>
+                <div id="feedback"></div>
             </form>
-        </section>∏
+        </section>
     </main>
 
 
@@ -161,6 +163,18 @@
             Hunter
         </div>
     </footer>
+
+    <script>
+        const feedbackElement = document.getElementById('feedback');
+        const formElement = document.forms[0];
+
+        formElement.addEventListener('submit', function (e) {
+            e.preventDefault();
+            feedbackElement.innerHTML = 'Thank you ' + formElement.full_name.value +
+                '. You have succesfully booked your stay with us. Check your email for a confirmation or give us a call!';
+            feedbackElement.style.display = "block";
+        });
+    </script>
 
 </body>
 
