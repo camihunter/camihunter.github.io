@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Crimson+Text:ital@0;1&display=swap');
+
+:root {
+    --primary-color: #e8eddf;
+    --secondary-color: #005e66;
+    --accent1-color: #eb6534;
+    --accent2-color: #efa00b;
+    --heading-font: "Architects Daughter", serif;
+    --paragraph-font: 'Crimson Text', serif;
+}
+
+
+html {
+    background-color:var(--primary-color);
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+}
+
+img {
+    max-width: 100%;;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    letter-spacing: 1px;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: white;
+    background-color: var(--secondary-color)
+}
+
+header>h1 {
+    color: white;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    padding: 1em;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999
+}
+
+.colors td {
+    width: 25%;
+    height: 3em;
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+    color: white;
+}
+
+.accent2 {
+    background-color: var(--accent2-color);
+    color: white;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em
+}
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    padding: 1em;
+    min-width: 70px
+}
+
+nav a:link,
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    background-color:var(--primary-color);
+}
+
+#logosample {
+    max-width: 40%;
+}
+
+.fontexample {
+    font-family: 'Crimson Text', serif;
+}
+
+.colored {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+body {
+    border-color: var(--primary-color);
+}
+
+.signature {
+    color: white;
+}
+
+
+nav a {
+    color: white;
+}
+
+.wireframe img{
+    max-width: 70%;
+    margin-bottom: 20px;
+}
