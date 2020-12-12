@@ -146,12 +146,13 @@ footer p {
 
 /*---------- Homepage ----------*/
 
-main {
+.homemain {
     display: grid;
-    gap: 50px;
+    gap: 30px;
     grid-template-columns: 40% 60%;
-    grid-template-rows: 1fr fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
     padding: 50px;
+    max-width: 800px;
 }
 
 .homea {
@@ -169,6 +170,10 @@ main {
     grid-row: 1/3;
     align-self: center;
     justify-self: center;
+}
+
+.homec img {
+    max-width: 425px;
 }
 
 .homed {
