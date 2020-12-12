@@ -1,11 +1,4 @@
-<!DOCTYPE HTML>
-<html lang="en-us">
 
-<head>
-    <meta charset="utf-8">
-    <title>Mad Libs</title>
-
-    <script>
         /*Defining Table
          *Input:Get part of speech words needed for story
          *Process:Create a story for the reader
@@ -29,21 +22,3 @@
                 ". I know nobody will ever believe me.";
             document.getElementById("outputDiv").innerHTML = story;
         }
-    </script>
-</head>
-
-<body>
-    <h1>Have fun creating a MadLib!</h1>
-    <h3>Please fill out all of the required fields to see your story.</h3>
-    Verb <input type="text" id="inputVerb1"><br>
-    Verb <input type="text" id="inputVerb2"><br>
-    Verb <input type="text" id="inputVerb3"><br>
-    Verb <input type="text" id="inputVerb4"><br>
-    Plural Noun<input type="text" id="inputPluralNoun1"><br>
-    Adjective<input type="text" id="inputadjective1"><br>
-    Feeling<input type="text" id="inputfeeling1"><br>
-    <button type="button" onclick="whatISaw()">Click here to see your story!</button>
-    <div id="outputDiv"></div>
-</body>
-
-</html>
