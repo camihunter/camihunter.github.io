@@ -274,7 +274,7 @@ picture {
     grid-row: 3;
 }
 
-.speechb h3 {
+.speechb h4 {
     color: var(--secondary-color);
     font-size: 1em;
 }
@@ -282,10 +282,10 @@ picture {
 .speechtable {
     display: grid;
     grid-template-columns: 100px 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: 1fr min-content;
 }
 
-.speechtable h3,
+.speechtable h4,
 .speechtable p {
     margin: 0 0 20px 30px;
 }
