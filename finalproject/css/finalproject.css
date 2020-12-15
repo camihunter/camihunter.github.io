@@ -28,8 +28,7 @@ main {
 
 header,
 footer {
-    max-width: 900px;
-}
+    max-width: 900px;}
 
 img {
     max-width: 100%;
@@ -112,7 +111,7 @@ ul {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
-    padding: 0 40px;
+    padding: 0 50px;
 }
 
 .header h1 {
@@ -218,7 +217,7 @@ a img {
 }
 
 .homec img {
-    max-width: 425px;
+    width: 425px;
     box-shadow: none;
 }
 
@@ -375,6 +374,7 @@ label {
     grid-column: 3;
     grid-row: 2;
     width: 300px;
+    height:375px;
 }
 
 .sensesc {

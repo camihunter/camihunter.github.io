@@ -1,1 +1,32 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 237.1 245.23"><defs><style>.cls-1{fill:url(#linear-gradient);}.cls-2,.cls-4{fill:#ffecd1;}.cls-2,.cls-3{stroke:#f4bd90;}.cls-2,.cls-3,.cls-4{stroke-miterlimit:10;stroke-width:3px;}.cls-3{fill:#f4bd7a;}.cls-4{stroke:url(#linear-gradient-2);}.cls-5{fill:#f9d5b4;}</style><linearGradient id="linear-gradient" x1="237.38" y1="148.68" x2="170.26" y2="148.68" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffecd1"/><stop offset="0.67" stop-color="#f9d5b4"/></linearGradient><linearGradient id="linear-gradient-2" x1="30.16" y1="207.63" x2="267.08" y2="70.85" gradientUnits="userSpaceOnUse"><stop offset="0.25" stop-color="#f4bd90"/><stop offset="1" stop-color="#ffebd0"/></linearGradient></defs><path class="cls-1" d="M218.5,80.5c-12.32,38.57,24.67,147.83,13,139-13.35-10.09-73.76-5.9-65-34C180.7,140,224.86,60.6,218.5,80.5Z" transform="translate(-4.96 -1.15)"/><path class="cls-2" d="M43.5,187.5C19.62,179.26,3.21,213.34,7,225c9.86,30.34,56.44,22.78,54-11C60.48,206.77,54.91,191.44,43.5,187.5Z" transform="translate(-4.96 -1.15)"/><path class="cls-3" d="M37,233c-1.26-.08,20,0,59-7,21.54-3.87,35.71-21.2,60-16,6.16,1.32,34,3.72,43,24,1,2.29,2.87,6.62,1,9-4.16,5.3-23.65-1.15-47-13-12.1-6.14-41,4.87-57-1C92.58,227.75,69,235,37,233Z" transform="translate(-4.96 -1.15)"/><path class="cls-4" d="M128.5,4.5c-9.41-1.51,18.07,61.69-13,96-8.63,12.77-35,29.56-60.5,47-24.82,16.93-31,39.75-21.5,62,16.25,38.17,59.45,39.38,115,10,7.17-3.79,10.32-4,35.87,18.29,12.72,11.1,45.2,9.28,52.13-6.29,17.27-38.82-25.26-55.72-40-57-6.65-.58,14-28.12,20-63,7.67-44.86,21.42-66.31,18-91-3.48-25.11-33.52-1.75-43-8C187,9.51,150.69-1.73,128.5,4.5Z" transform="translate(-4.96 -1.15)"/><path class="cls-5" d="M96.5,233.5c-18.62.66-51.44-17.45-56-58-.85-7.56-10.42,28.4,7,45C69.52,241.48,107,233.13,96.5,233.5Z" transform="translate(-4.96 -1.15)"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 237.1 245.2" style="enable-background:new 0 0 237.1 245.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFECD1;stroke:#F4BD90;stroke-width:3;stroke-miterlimit:10;}
+	.st2{fill:#F4BD7A;stroke:#F4BD90;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:#FFECD1;stroke:url(#SVGID_2_);stroke-width:3;stroke-miterlimit:10;}
+	.st4{fill:#F9D5B4;}
+</style>
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="237.38" y1="99.3176" x2="170.26" y2="99.3176" gradientTransform="matrix(1 0 0 -1 -4.96 246.85)">
+		<stop  offset="0" style="stop-color:#FFECD1"/>
+		<stop  offset="0.67" style="stop-color:#F9D5B4"/>
+	</linearGradient>
+	<path class="st0" d="M213.5,79.3c-12.3,38.6,24.7,147.8,13,139c-13.4-10.1-73.8-5.9-65-34C175.7,138.9,219.9,59.4,213.5,79.3z"/>
+	<path class="st1" d="M38.5,186.4C14.7,178.1-1.8,212.2,2,223.9c9.9,30.3,56.4,22.8,54-11C55.5,205.6,50,190.3,38.5,186.4z"/>
+	<path class="st2" d="M32,231.9c-1.3-0.1,20,0,59-7c21.5-3.9,35.7-21.2,60-16c6.2,1.3,34,3.7,43,24c1,2.3,2.9,6.6,1,9
+		c-4.2,5.3-23.6-1.1-47-13c-12.1-6.1-41,4.9-57-1C87.6,226.6,64,233.9,32,231.9z"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="30.1627" y1="40.3728" x2="267.0787" y2="177.1505" gradientTransform="matrix(1 0 0 -1 -4.96 246.85)">
+		<stop  offset="0.25" style="stop-color:#F4BD90"/>
+		<stop  offset="1" style="stop-color:#FFEBD0"/>
+	</linearGradient>
+	<path class="st3" d="M123.5,3.3c-9.4-1.5,18.1,61.7-13,96c-8.6,12.8-35,29.6-60.5,47c-24.8,16.9-31,39.8-21.5,62
+		c16.2,38.2,59.4,39.4,115,10c7.2-3.8,10.3-4,35.9,18.3c12.7,11.1,45.2,9.3,52.1-6.3c17.3-38.8-25.3-55.7-40-57
+		c-6.6-0.6,14-28.1,20-63c7.7-44.9,21.4-66.3,18-91c-3.5-25.1-33.5-1.8-43-8C182,8.4,145.7-2.9,123.5,3.3z"/>
+	<path class="st4" d="M91.5,232.4c-18.6,0.7-51.4-17.4-56-58c-0.8-7.6-10.4,28.4,7,45C64.6,240.3,102,232,91.5,232.4z"/>
+</g>
+</svg>
