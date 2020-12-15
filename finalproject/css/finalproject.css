@@ -376,7 +376,6 @@ label {
 
 .sensesc div {
     display: flex;
-    justify-items: space-between;
 }
 
 .card {
@@ -395,7 +394,7 @@ label {
     margin: 15px 20px;
 }
 
-.card h3 {
+.card h4 {
     margin: 15px 0 ;
     color: var(--secondary-color);
 }
