@@ -133,6 +133,7 @@ nav>ul {
     margin: auto;
     padding: 5px;
     border-top: solid 1px var(--primary-color);
+    font-size: 1.1em;
 }
 
 nav a:link,
