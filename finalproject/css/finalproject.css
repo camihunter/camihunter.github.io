@@ -100,7 +100,8 @@ ul {
 /*---------- Header ----------*/
 .logo {
     display: block;
-    max-width: 80px;
+    width: 80px;
+    height: auto;
     margin: 15px 30px 15px 0;
     box-shadow: none;
 }
@@ -177,6 +178,7 @@ footer a {
 
 .social a {
     width: 37px;
+    height: auto;
 }
 
 footer p {
@@ -211,6 +213,7 @@ a img {
 .homec {
     grid-column: 2;
     grid-row: 1/3;
+    width: 
 }
 
 .homec img {
@@ -324,6 +327,10 @@ picture {
     grid-row: 4;
     justify-self: center;
     align-self: center;
+}
+.speeche img {
+    width: 400px;
+    height: auto;
 }
 
 
