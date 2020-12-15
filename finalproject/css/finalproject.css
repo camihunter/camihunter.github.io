@@ -223,7 +223,7 @@ a img {
     grid-row: 3;
 }
 
-.homed img{
+.noshadow {
     box-shadow: none;
 }
 
@@ -231,6 +231,11 @@ picture {
     align-self: center;
     justify-self: center;
 }
+.benefits li {
+    list-style-type: "\1F44D";;
+
+}
+
 /*---------- Speech page ----------*/
 
 
@@ -280,6 +285,7 @@ picture {
 .speechtable p {
     margin: 0 0 20px 30px;
 }
+
 
 .speechc {
     grid-column: 4;
@@ -339,7 +345,7 @@ label {
     max-width: 800px;
     display: grid;
     gap: 50px;
-    grid-template-columns: 40% 20% 30%;
+    grid-template-columns: 40% 1fr 40%;
     grid-template-rows: 1fr min-content;
 }
 
@@ -353,10 +359,14 @@ label {
     grid-column: 1/3;
     grid-row: 2;
 }
+.sensea p {
+    align-self: center;
+}
 
 .sensesb {
     grid-column: 3;
     grid-row: 2;
+    width: 300px;
 }
 
 .sensesc {
@@ -366,6 +376,7 @@ label {
 
 .sensesc div {
     display: flex;
+    justify-items: space-between;
 }
 
 .card {
@@ -380,15 +391,19 @@ label {
 .card img {
     display: inline-block;
     box-shadow: none;
-    max-height: 120px;
-    margin: 10px 20px;
+    max-height: 105px;
+    margin: 15px 20px;
+}
 
-
+.card h3 {
+    margin: 15px 0 ;
+    color: var(--secondary-color);
 }
 
 .card p {
     padding: 0 10px;
     text-align: center;
+    margin-top: auto;
 }
 
 .sensesd {
@@ -398,12 +413,24 @@ label {
 
 .sensese {
     display: inline-block;
-    grid-column: 1;
+    grid-column: 1/4;
     grid-row: 5;
     justify-self: center;
 }
 
 .sensesf {
-    grid-column: 2/4;
-    grid-row: 5;
+    grid-column: 1/4;
+    grid-row: 6;
+}
+
+.sensesf h5, p {
+    margin: 0;
+}
+
+.sensesf h5 {
+    color: var(--secondary-color);
+}
+
+.bottommargin {
+    margin-bottom: 15px;
 }
