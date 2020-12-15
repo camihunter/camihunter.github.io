@@ -430,12 +430,13 @@ label {
     grid-row: 6;
 }
 
-.sensesf h5, p {
+.sensesf h4, p {
     margin: 0;
 }
 
-.sensesf h5 {
+.sensesf h4 {
     color: var(--secondary-color);
+    font-size: .9em;
 }
 
 .bottommargin {
